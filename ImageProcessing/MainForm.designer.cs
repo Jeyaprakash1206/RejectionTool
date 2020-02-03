@@ -587,7 +587,7 @@ namespace ImageProcessing
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.ShowIcon = false;
-            this.Text = "Rejection Tool 5.0";
+            this.Text = "Rejection Tool 6.0";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.panelMain.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
