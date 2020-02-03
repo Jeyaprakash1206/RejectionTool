@@ -1,0 +1,3 @@
+srocode=123
+outputjpgpath=C:/ImageProcessing/OutputDoc/
+outputtiffpath=C:/ImageProcessing/OutputTiff/
