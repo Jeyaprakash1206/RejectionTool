@@ -939,9 +939,9 @@ namespace ImageProcessing
             {
                 Cropbtn.PerformClick();
             }
-            if (e.KeyChar == 'o' && cropX > 0)
+            if ((e.KeyChar == 'o' || e.KeyChar == 111) && cropX > 0)
             {
-                OutsideCropbtn.PerformClick();
+               OutsideCropbtn.PerformClick();
             }
         }
         private void AddImage(string imageFilename)
