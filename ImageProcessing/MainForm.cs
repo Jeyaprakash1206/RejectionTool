@@ -2243,7 +2243,7 @@ namespace ImageProcessing
                         //System.Drawing.SolidBrush myBrush = new System.Drawing.SolidBrush(System.Drawing.Color.White);
                         //graphics.FillRectangle(myBrush, new Rectangle(cropX, cropY, cropWidth, cropHeight));
 
-                        graphics.FillRectangle(new SolidBrush(Color.White), 0, 0, x.Width, Decimal.ToInt32(y));
+                        graphics.FillRectangle(new SolidBrush(Color.White), Decimal.ToInt32(x1), 0, (Decimal.ToInt32(cwid)), Decimal.ToInt32(y));
                         //graphics.FillRectangle(new SolidBrush(Color.White), 0, Decimal.ToInt32(y), Decimal.ToInt32(x1), Decimal.ToInt32(chig));
                         //graphics.FillRectangle(new SolidBrush(Color.White), (Decimal.ToInt32(x1) + Decimal.ToInt32(cwid)), Decimal.ToInt32(y), x.Width, Decimal.ToInt32(chig));
                         //graphics.FillRectangle(new SolidBrush(Color.White), 0, Decimal.ToInt32(y) + Decimal.ToInt32(chig), x.Width, x.Height - (Decimal.ToInt32(y) + Decimal.ToInt32(chig)));
@@ -2636,7 +2636,7 @@ namespace ImageProcessing
                         //graphics.FillRectangle(new SolidBrush(Color.White), 0, 0, x.Width, Decimal.ToInt32(y));
                         //graphics.FillRectangle(new SolidBrush(Color.White), 0, Decimal.ToInt32(y), Decimal.ToInt32(x1), Decimal.ToInt32(chig));
                         //graphics.FillRectangle(new SolidBrush(Color.White), (Decimal.ToInt32(x1) + Decimal.ToInt32(cwid)), Decimal.ToInt32(y), x.Width, Decimal.ToInt32(chig));
-                        graphics.FillRectangle(new SolidBrush(Color.White), 0, Decimal.ToInt32(y) + Decimal.ToInt32(chig), x.Width, x.Height - (Decimal.ToInt32(y) + Decimal.ToInt32(chig)));
+                        graphics.FillRectangle(new SolidBrush(Color.White), Decimal.ToInt32(x1), Decimal.ToInt32(y) + Decimal.ToInt32(chig), (Decimal.ToInt32(cwid)), x.Height - (Decimal.ToInt32(y) + Decimal.ToInt32(chig)));
 
                         // Important part!
                         string path = outputjpgpath + "/" + fname + "_1.png";
